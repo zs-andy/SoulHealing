@@ -6,14 +6,34 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		24A639122E9241C20057F8E9 /* MLX in Frameworks */ = {isa = PBXBuildFile; productRef = 24A639112E9241C20057F8E9 /* MLX */; };
+		24A639152E9241ED0057F8E9 /* MLXLMCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 24A639142E9241ED0057F8E9 /* MLXLMCommon */; };
+		24A639172E9241ED0057F8E9 /* MLXVLM in Frameworks */ = {isa = PBXBuildFile; productRef = 24A639162E9241ED0057F8E9 /* MLXVLM */; };
+		24A6393C2E9247410057F8E9 /* MLXFast in Frameworks */ = {isa = PBXBuildFile; productRef = 24A6393B2E9247410057F8E9 /* MLXFast */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		24A638FA2E92345C0057F8E9 /* MusicTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24A6398B2E9251C00057F8E9 /* SoulHealing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoulHealing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		24A639192E9243170057F8E9 /* Exceptions for "SoulHealing" folder in "SoulHealing" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 24A638F92E92345C0057F8E9 /* SoulHealing */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		24A638FC2E92345C0057F8E9 /* MusicTest */ = {
+		24A638FC2E92345C0057F8E9 /* SoulHealing */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MusicTest;
+			exceptions = (
+				24A639192E9243170057F8E9 /* Exceptions for "SoulHealing" folder in "SoulHealing" target */,
+			);
+			path = SoulHealing;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +43,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24A639152E9241ED0057F8E9 /* MLXLMCommon in Frameworks */,
+				24A639122E9241C20057F8E9 /* MLX in Frameworks */,
+				24A6393C2E9247410057F8E9 /* MLXFast in Frameworks */,
+				24A639172E9241ED0057F8E9 /* MLXVLM in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,25 +56,17 @@
 		24A638F12E92345C0057F8E9 = {
 			isa = PBXGroup;
 			children = (
-				24A638FC2E92345C0057F8E9 /* MusicTest */,
-				24A638FB2E92345C0057F8E9 /* Products */,
+				24A638FC2E92345C0057F8E9 /* SoulHealing */,
+				24A6398B2E9251C00057F8E9 /* SoulHealing.app */,
 			);
-			sourceTree = "<group>";
-		};
-		24A638FB2E92345C0057F8E9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				24A638FA2E92345C0057F8E9 /* MusicTest.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		24A638F92E92345C0057F8E9 /* MusicTest */ = {
+		24A638F92E92345C0057F8E9 /* SoulHealing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24A639052E92345D0057F8E9 /* Build configuration list for PBXNativeTarget "MusicTest" */;
+			buildConfigurationList = 24A639052E92345D0057F8E9 /* Build configuration list for PBXNativeTarget "SoulHealing" */;
 			buildPhases = (
 				24A638F62E92345C0057F8E9 /* Sources */,
 				24A638F72E92345C0057F8E9 /* Frameworks */,
@@ -61,13 +77,17 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				24A638FC2E92345C0057F8E9 /* MusicTest */,
+				24A638FC2E92345C0057F8E9 /* SoulHealing */,
 			);
-			name = MusicTest;
+			name = SoulHealing;
 			packageProductDependencies = (
+				24A639112E9241C20057F8E9 /* MLX */,
+				24A639142E9241ED0057F8E9 /* MLXLMCommon */,
+				24A639162E9241ED0057F8E9 /* MLXVLM */,
+				24A6393B2E9247410057F8E9 /* MLXFast */,
 			);
 			productName = MusicTest;
-			productReference = 24A638FA2E92345C0057F8E9 /* MusicTest.app */;
+			productReference = 24A6398B2E9251C00057F8E9 /* SoulHealing.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 24A638F52E92345C0057F8E9 /* Build configuration list for PBXProject "MusicTest" */;
+			buildConfigurationList = 24A638F52E92345C0057F8E9 /* Build configuration list for PBXProject "SoulHealing" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -94,12 +114,16 @@
 			);
 			mainGroup = 24A638F12E92345C0057F8E9;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				24A639102E9241C20057F8E9 /* XCRemoteSwiftPackageReference "mlx-swift" */,
+				24A639132E9241ED0057F8E9 /* XCRemoteSwiftPackageReference "mlx-swift-examples" */,
+			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 24A638FB2E92345C0057F8E9 /* Products */;
+			productRefGroup = 24A638F12E92345C0057F8E9;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				24A638F92E92345C0057F8E9 /* MusicTest */,
+				24A638F92E92345C0057F8E9 /* SoulHealing */,
 			);
 		};
 /* End PBXProject section */
@@ -254,11 +278,12 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N9DDMY3PQ3;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MusicTest/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera Usage";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -270,7 +295,7 @@
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
@@ -286,11 +311,12 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N9DDMY3PQ3;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MusicTest/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera Usage";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,7 +328,7 @@
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
@@ -312,7 +338,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		24A638F52E92345C0057F8E9 /* Build configuration list for PBXProject "MusicTest" */ = {
+		24A638F52E92345C0057F8E9 /* Build configuration list for PBXProject "SoulHealing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24A639032E92345D0057F8E9 /* Debug */,
@@ -321,7 +347,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		24A639052E92345D0057F8E9 /* Build configuration list for PBXNativeTarget "MusicTest" */ = {
+		24A639052E92345D0057F8E9 /* Build configuration list for PBXNativeTarget "SoulHealing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24A639062E92345D0057F8E9 /* Debug */,
@@ -331,6 +357,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		24A639102E9241C20057F8E9 /* XCRemoteSwiftPackageReference "mlx-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ml-explore/mlx-swift";
+			requirement = {
+				kind = exactVersion;
+				version = 0.21.2;
+			};
+		};
+		24A639132E9241ED0057F8E9 /* XCRemoteSwiftPackageReference "mlx-swift-examples" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ml-explore/mlx-swift-examples";
+			requirement = {
+				kind = exactVersion;
+				version = 2.21.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		24A639112E9241C20057F8E9 /* MLX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 24A639102E9241C20057F8E9 /* XCRemoteSwiftPackageReference "mlx-swift" */;
+			productName = MLX;
+		};
+		24A639142E9241ED0057F8E9 /* MLXLMCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 24A639132E9241ED0057F8E9 /* XCRemoteSwiftPackageReference "mlx-swift-examples" */;
+			productName = MLXLMCommon;
+		};
+		24A639162E9241ED0057F8E9 /* MLXVLM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 24A639132E9241ED0057F8E9 /* XCRemoteSwiftPackageReference "mlx-swift-examples" */;
+			productName = MLXVLM;
+		};
+		24A6393B2E9247410057F8E9 /* MLXFast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 24A639102E9241C20057F8E9 /* XCRemoteSwiftPackageReference "mlx-swift" */;
+			productName = MLXFast;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 24A638F22E92345C0057F8E9 /* Project object */;
 }
